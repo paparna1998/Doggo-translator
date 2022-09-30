@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@500&family=Grechen+Fuemen&display=swap");
+
+:root {
+  /* --primary-color: #e6e1ff; */
+  --primary-color: #e8f0a34b;
+}
+body {
+  font-family: "Gluten", cursive;
+  /* font-family: "Grechen Fuemen", cursive; */
+}
+.nav {
+  background-color: var(--primary-color);
+  text-align: center;
+  height: 100px;
+}
+
+/* .main {
+  box-sizing: border-box;
+  display: block;
+} */
+
+#input {
+  box-sizing: border-box;
+  display: block;
+  width: 370px;
+  height: 100px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Gluten", cursive;
+  /* font-family: "Grechen Fuemen", cursive; */
+  font-size: 1.5rem;
+  border-top-left-radius: 30px;
+}
+
+#btn-translate {
+  /* text-align: center; */
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 50px;
+  font-family: "Gluten", cursive;
+  font-family: "Grechen Fuemen", cursive;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#output {
+  text-align: center;
+  border: 1px solid black;
+  width: 370px;
+  margin: auto;
+  height: 100px;
+  font-size: larger;
+  font-size: 1.5rem;
+  border-bottom-right-radius: 30px;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  margin-top: 14rem;
+}
+
+.hero {
+  text-align: center;
+  /* margin-top: 2rem; */
+  padding-top: 2rem;
+  font-size: larger;
+  padding-left: 10rem;
+}
+.hero img {
+  max-width: 600px;
+  float: right;
+  max-height: 200px;
+  border-radius: 150px;
+}
+
+.footer h1 {
+  text-align: center;
+  display: block;
+  margin-bottom: 20px;
+}
